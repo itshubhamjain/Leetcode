@@ -12,4 +12,5 @@ class Solution:
             return y*y
         
         else:
+            
             return x* self.myPow(x, n-1)
